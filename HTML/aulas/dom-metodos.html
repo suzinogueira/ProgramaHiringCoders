@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Texto descritivo da página web">
+    <meta name="author" content="Suzi Nogueira">
+   
+    <title>DOM - Métodos e Eventos</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+
+</head>
+<body>
+   
+    <header>
+
+    </header>
+
+    <main role="main">
+
+
+        <p id="article-description">
+            Baby Yoda é um membro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e Yaddle, 
+            com quem ele compartilha uma forte habilidade na Força.
+        </p>
+
+        <p id="texto1">
+            Baby Yoda é um membro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e Yaddle, 
+            com quem ele compartilha uma forte habilidade na Força.
+        </p>
+
+        <button id="botao1" onclick="atualizacao()">Atualização de texto</button>
+
+        <script type="text/javascript">
+            
+            // método
+            var paragrafo = document.getElementById("article-description");
+            paragrafo.style.color = "blue";
+
+            paragrafo.innerText = "Texto mudou !";
+
+            // evento
+            function atualizacao(){
+                var texto1 = document.getElementById("texto1");
+
+                texto1.innerText = "Star Wars!";
+            }
+
+
+        </script>
+
+        
+    </main>
+
+    <footer>
+
+        <br><br>
+        
+        <a href="../index.html" title="Voltar" target="_blank">
+            Voltar
+        </a>
+
+    </footer>
+
+</body>
+</html>

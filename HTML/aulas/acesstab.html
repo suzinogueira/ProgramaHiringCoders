@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Texto descritivo da página web">
+    <meta name="author" content="Suzi Nogueira">
+   
+    <title>Acessibilidade em Tabelas e Imagens</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+
+</head>
+<body>
+   
+    <header>
+
+        <table summary="O número de trabalhadores e o ano da fundação de algumas empresas tecnológicas.">
+
+            <caption>Tabela 1: Informações sobre empresas</caption>
+
+            <thead>
+                <tr>
+                    <th abbr="Empresa" scope="col">Nome da Empresa</th>
+                    <th abbr="Trabalhadores" scope="col">Número de Trabalhadores</th>
+                    <th abbr="Fundação" scope="col">Data da Fundação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Apple, Inc.</th>
+                    <td>98000</td>
+                    <td>1976</td>
+                </tr>
+                <tr>
+                    <th>Google, Inc.</th>
+                    <td>55000</td>
+                    <td>1997</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </header>
+
+    <main>
+        
+
+        <img src="https://s2.glbimg.com/Szt89xllZTCcITKgFw8rUlcTZ28=/0x0:1600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/J/e/wQkP3nQPeF9j7JLogEjQ/baby-yoda.jpg" 
+        alt="Baby Yoda" title="Baby Yoda" aria-labelledby="description-babyyoda">
+
+        <p id="description-babyyoda">
+            Baby Yoda é um membro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e Yaddle, 
+            com quem ele compartilha uma forte habilidade na Força.
+        </p>
+       
+
+
+
+    </main>
+
+    <footer>
+
+        <br><br>
+        
+        <a href="../index.html" title="Voltar" target="_blank">
+            Voltar
+        </a>
+        
+    </footer>
+
+</body>
+</html>

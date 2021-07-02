@@ -1,0 +1,48 @@
+body{
+    background-color: #FFFAF0;
+}
+
+img{
+    width: 200px;
+}
+
+.title{
+    font-family:'Courier New', Courier, monospace;
+    color:#191970;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+a.anone{
+
+    color:white;
+    background-color: white;
+}
+
+a.anone:hover{
+
+    color:white;
+    background-color: white;
+}
+
+img:hover{
+    border: 3px solid indigo;
+}
+
+
+a{
+    text-decoration: none;
+    color: beige;
+    background-color: indigo;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 3px;
+    
+}
+
+a:hover {
+	text-decoration: underline;
+    color:#191970;
+    background-color: burlywood;
+}
+

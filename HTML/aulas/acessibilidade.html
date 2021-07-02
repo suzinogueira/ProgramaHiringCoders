@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Texto descritivo da página web">
+    <meta name="author" content="Suzi Nogueira">
+   
+    <title>Acessibilidade Landmark e Lang</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+
+</head>
+<body>
+   
+    <header role="banner">
+
+        <nav role="navigation" aria-level="main navigation">
+            <ul role="menu">
+                <li>
+                    <a href="" role="menuitem">Home</a>
+                </li>
+                <li>
+                    <a href="" role="menuitem">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="" role="menuitem">Contato</a>
+                </li>
+                <li>
+                    <a href="" role="menuitem">Conteúdos</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main role="main">
+
+        <p>
+            Baby Yoda é um membro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e Yaddle, 
+            com quem ele compartilha uma forte habilidade na Força.
+        </p>
+        <p lang="en">
+            Grogu (also known as "Baby Yoda" among fans and the media) is a character from the Star Wars Disney+ original
+             television series The Mandalorian. He is a toddler member of the same unnamed alien species as the Star Wars characters 
+             Yoda and Yaddle, with whom he shares a strong ability in the Force.
+        </p>
+
+        <button aria-label="Acesse o site oficial da Marvel para saber mais sobre o Baby Yoda"
+        aria-labelledby="bsite">Saber mais</button>
+
+        <p id="bsite">Site do Baby Yoda</p>
+
+        <p>
+            Baby Yoda é um membro pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e Yaddle, 
+            com quem ele compartilha uma forte habilidade na Força.
+        </p>
+
+        <form>
+
+            <label>E-mail</label>
+            <input type="email">
+
+            <label>Interesses</label>
+            <input type="radio" name="interesse" value="Vendas">
+            <label for="s">Vendas</label>
+
+            <input type="radio" name="interesse" value="Marketing">
+            <label for="m">Marketing</label>
+
+            <input type="radio" name="interesse" value="Programação">
+            <label for="1">Programação</label>
+
+            <input type="submit" value="inscrever">
+
+
+        </form>
+        
+
+
+    </main>
+
+    <footer role="contentinfo">
+
+        <br><br>
+        
+        <a href="../index.html" title="Voltar" target="_blank">
+            Voltar
+        </a>
+
+        <br><br>
+        &copy; 2021 Gama Academy
+
+    </footer>
+
+</body>
+</html>
