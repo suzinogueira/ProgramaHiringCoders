@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+
+        .flex-div{
+            width: 500px;
+            display: flex;
+            /*justify-content: space-around; */
+        }
+
+        .child-div1{
+            border:1px solid black;
+            flex-basis: 300px;
+            /* flex-grow:2; */ /*crescimento*/
+            flex-shrink: 2; /*encolhimento*/
+
+        }
+
+        .child-div2{
+            border: 1px solid black;
+            flex-basis: 300px;
+            /* flex-grow:3; */
+            flex-shrink: 3;
+        }
+
+        .child-div3{
+            border: 1px solid black;
+            flex-basis: 300px;
+            /* flex-grow:1; */
+            flex-shrink: 1;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="flex-div">
+
+        <div class="child-div1">
+            1
+        </div>
+            
+        <div class="child-div2">
+            2
+        </div>
+
+        <div class="child-div3">
+            3
+        </div>
+        
+    </div>
+    
+</body>
+</html>
